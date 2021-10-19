@@ -2,7 +2,7 @@
 
 # Prompt the user to enter first or last or any portion of person’s name
 print("Enter first or last or any portion of person’s name: ");
-$name=<>;
+$name=lc <>;
 
 chop($name);
 
